@@ -607,4 +607,8 @@ public class HelpFormatterTest
         
         assertEquals("usage: create [--age=<arg>] [-f <arg>] [-s <SIZE>]", out.toString().trim());
     }
+    
+    public static void main(String[] args){
+    	System.out.println("test");
+    }
 }

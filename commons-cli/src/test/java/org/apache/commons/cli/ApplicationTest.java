@@ -337,4 +337,13 @@ public class ApplicationTest
         assertEquals(line.getOptionValue("age"), "5");
         assertEquals(line.getOptionValue("file"), "filename");
     }
+    
+    public static void main(String[] args){
+    	ApplicationTest test = new ApplicationTest();
+    	try {
+			test.testLs();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+    }
 }
